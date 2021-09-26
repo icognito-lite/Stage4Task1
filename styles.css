@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+.container1
+{
+    margin: 2% 2% 0 2%;
+}
+.container2
+{
+    margin: 0 2%;
+}
+.featured-menu
+{
+    display:flex;
+    height: 330vh;
+    width:100%;
+    border:1px solid black;
+    background-color: beige;
+}
+.new-menu
+{
+    margin:auto;
+    
+}
+.popular
+{
+    margin:auto;
+}
+
+#middlecard1 , #middlecard2
+{
+    margin: 2% 0;
+
+}
+.menu{
+    border: 1px solid black;
+    margin-bottom: 4%;
+    font-size: 150%;
+    color:crimson;
+}
+#mp1 , #mp2 , #mp3
+{
+    height: 31rem;
+}
+.container1 .d-inline-block
+{
+    color:rgb(218, 55, 88)
+}
+.container2 .d-inline-block
+{
+    color:darkolivegreen;
+}
+.display-menu .stretched-link
+{
+    color:darksalmon;
+    font-style: italic;
+}
+.blog-footer
+{
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+
+}
+.icons
+{
+    cursor: pointer;
+}
+#story
+{
+    background-image: url("https://source.unsplash.com/1600x900/?chef");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.px-3
+{
+    height: 72vh;
+}
+.px-3 .lead1
+{
+    overflow: hidden;
+   
+}
+#storyfooter
+{
+    background: none;
+}
+#servicescover
+{
+    background-image: url("https://source.unsplash.com/1600x900/?chef, cooking");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#servicesfooter
+{
+    background-color: blanchedalmond;
+}
+#membersignup
+{
+    background-color: #fff;
+    width:100%;
+    margin: 0 1%;
+}
+.form-section1
+{
+    width:48%;
+    margin-left: 1%;
+}
+.top
+{
+    display: flex;
+    width:100%;
+    height: 50vh;
+    
+}
+#contactcol2
+{
+    width: 48%;
+    margin-left: 2%;
+    background-image: url("https://source.unsplash.com/1600x900/?Business woman, coffee images");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#featurette
+{
+    width:100%;
+
+}
+.featurette-heading
+{
+    text-align:center;
+    margin: 2% 0;
+}
+#lightfooter
+{
+    margin-top: 2%;
+   
+}
+#lighteatcont
+{
+    width:100%;
+
+}
+.featurette .lighteattext
+{
+    margin:2%;
+}
+.featurette .lead
+{
+ margin:2%;
+
+}
+
+.featurette-heading3 ,.featurette-heading1
+{
+    color: crimson;
+}
+.featurette-heading2
+{
+    color:darkolivegreen;
+    text-align: center;
+}
+.navbar
+{
+    background-color: coral;
+}
+@media only screen and (max-width: 450px)
+{
+     .featured-menu{
+         display:flex;
+         flex-direction: column;
+         height:540vh;
+
+     }
+     .featured-menu .card
+     {
+         width:14rem;
+     }
+     #mp1, #mp2, #mp3, #nm0, #nm1, #nm2
+     {
+         height: 10rem;
+     }
+     .h-100 .contactpara{
+         font-size: 50%;
+     }
+     .lead1{
+         font-size: smaller;
+         overflow:hidden;
+     }
+     .h-100 .contactpara
+{
+    
+   visibility: hidden;
+}
+
+}
+
+@media only screen and (max-width: 768px)
+{
+    .featured-menu .card
+    {
+        width: 18rem;
+        height: 20rem;
+    }
+    #mp1, #mp2, #mp3, #nm0, #nm1, #nm2,#img1
+    {
+        height: 15rem;
+    }
+    .featured-menu
+    {
+        display: flex;
+        flex-direction: column;
+        height:300vh;
+    }
+    .featured-menu .menu{
+        margin-top: 0;
+    }
+   #middlecard1 , #middlecard2
+    {
+        margin:10rem 0;
+    }
+  .foodimage
+  {
+      width:20rem;
+  }
+}
