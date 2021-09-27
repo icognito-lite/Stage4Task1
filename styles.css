@@ -168,36 +168,7 @@
 {
     background-color: coral;
 }
-@media only screen and (max-width: 450px)
-{
-     .featured-menu{
-         display:flex;
-         flex-direction: column;
-         height:540vh;
 
-     }
-     .featured-menu .card
-     {
-         width:14rem;
-     }
-     #mp1, #mp2, #mp3, #nm0, #nm1, #nm2
-     {
-         height: 10rem;
-     }
-     .h-100 .contactpara{
-         font-size: 50%;
-     }
-     .lead1{
-         font-size: smaller;
-         overflow:hidden;
-     }
-     .h-100 .contactpara
-{
-    
-   visibility: hidden;
-}
-
-}
 
 @media only screen and (max-width: 768px)
 {
@@ -227,4 +198,87 @@
   {
       width:20rem;
   }
+}
+@media only screen and (max-width: 450px)
+{
+     .featured-menu{
+         display:flex;
+         flex-direction: column;
+         height:420vh;
+         background-color: #fff;
+         margin-left:1%;
+        
+
+     }
+    
+     .featured-menu .menu{
+         font-size:large;
+         margin-top: 1%;
+     }
+     .featured-menu .card
+     {
+         width:50%;
+         height: 10rem;
+         margin:3rem 0;
+         
+     }
+    
+     .featured-menu .card-body
+     {
+         width:50%;
+         font-size: x-small;
+         height: 8rem;
+         
+     }
+     #card3pop
+     {
+         margin-bottom: 2rem;
+     }
+     
+     #mp1, #mp2, #mp3, #nm0, #nm1, #nm2, #img1
+     {
+         height: 10rem;
+         width:50%;
+         
+     }
+   
+     .h-100 .contactpara{
+         font-size: 50%;
+     }
+     #story
+     {
+         height:auto;
+     }
+     .lead1{
+         font-size: smaller;
+         overflow: hidden;
+         display: -webkit-box;
+         -webkit-box-orient: vertical;
+         -webkit-line-clamp: 16;
+        }
+    
+     .h-100 .contactpara
+{
+    
+   visibility: hidden;
+}
+#mobview
+{
+    width: 18rem;
+}
+     #storyfooter
+     {
+         font-size: small;
+     }
+#ichef-member
+{
+    font-size: 100%;
+    
+
+}
+#membersignup
+{
+   margin-top: 5%;
+}
+
 }
